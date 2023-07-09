@@ -28,6 +28,9 @@ public class Member {
     @Lob
     private String description;
 
+//   매핑x
+    @Transient
+    private int temp;
     public Member(){
 
     }
